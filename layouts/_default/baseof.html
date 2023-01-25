@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body class="flex flex-col font-sans min-h-screen bg-primary">
+        {{ partial "navbar.html" (dict "navlinks" .Site.Data.benplg.navbar ) }}
+        <div id="wrapper" class="wrapper bg-primary">
+			<div>
+				<div class="plg-cover"></div>
+				<h1 class="text leading-none">BEN<span class="hidden md:inline"> PLG</span></h1>
+			</div>
+            {{ partial "cds.html" }}
+            {{ partial "dates.html" (dict "dates" .Site.Data.benplg.dates ) }}
+            {{ partial "listen.html" }}
+            {{ partial "latest_video.html" }}
+            {{ partial "photos.html" (dict "photos" .Site.Data.benplg.photos ) }}
+            {{ partial "footer.html" . }}
+		</div>
+        {{ partial "js.html" . }}
+    </body>
+</html>

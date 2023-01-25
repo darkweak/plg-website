@@ -1,0 +1,13 @@
+Title = "Pour la gloire"
+canonifyUrls = "true"
+
+[params]
+    Author = "Sylvain COMBRAQUE"
+    Title = "Pour la gloire"
+    Description = "Pour la gloire, actualités, lien vers les places de concert, agrégation des dernières photos"
+    BaseURL = "https://euphonious-chaja-407aec.netlify.app/"
+    LanguageCode = "fr-FR"
+    Images = ["https://i.scdn.co/image/ab6761610000e5eb38ab9ffa36a60eff0cc794a3"]
+
+[social]
+    twitter = "ben_plg"
