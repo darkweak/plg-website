@@ -1,3 +1,11 @@
+- date: "2023-03-04"
+  address: Salle Le Bournot, Aubenas
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3301031
+- date: "2023-03-10"
+  address: Le Poche, Bethune
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3311604
 - date: "2023-03-22"
   address: Le Ferrailleur, Nantes
   tickets:
@@ -16,11 +24,3 @@
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3305555
     seetickets: https://www.seetickets.com/fr/d/event/ben-plg-angie/bonjour-minuit/9379075
     ticketmaster: https://www.ticketmaster.fr/fr/salle/bonjour-minuit-st-brieuc/idsite/11821
-- date: "2023-03-04"
-  address: Salle Le Bournot, Aubenas
-  tickets:
-    fnac: https://www.fnacspectacles.com/artist/ben-plg/3301031
-- date: "2023-03-10"
-  address: Le Poche, Bethune
-  tickets:
-    fnac: https://www.fnacspectacles.com/artist/ben-plg/3311604
