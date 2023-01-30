@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"regexp"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -232,6 +233,11 @@ func main() {
 	for _, v := range store.values {
 		vs = append(vs, *v)
 	}
+	sort.Slice(vs, func(i, j int) bool {
+		d1, _ := time.Parse("2006-01-02", vs[i].Date)
+		d2, _ := time.Parse("2006-01-02", vs[j].Date)
+		return d1.Before(d2)
+	})
 	b, _ := yaml.Marshal(vs)
 	os.WriteFile("../../data/"+artistWithoutSpaces+"/dates.yaml", b, 0755)
 }

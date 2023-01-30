@@ -1,7 +1,7 @@
 <section id="dates" class="py-8 bg-primary container m-auto">
     <h2 class="text-center">Prochains concerts</h2>
     <div class="mt-4 overflow-x-scroll rounded-lg mx-4 border border-gray-200">
-        <table class="min-w-full divide-y divide-gray-200">
+        <table class="divide-y divide-gray-200 min-w-max w-full">
             <thead class="bg-gray-100">
                 <tr>
                     <th scope="col" class="py-3 px-6 text-xs font-medium tracking-wider text-left text-gray-700 uppercase">
@@ -18,12 +18,12 @@
             <tbody class="bg-white divide-y divide-gray-200">
                 {{ range (sort .dates "date") }}
                     <tr class="hover:bg-gray-100">
-                        <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">{{ .date }}</td>
+                        <td class="py-4 px-6 text-sm font-medium text-gray-900 whitespace-nowrap">{{ .date | time.Format "02/01/2006" }}</td>
                         <td class="py-4 px-6 text-sm font-medium text-gray-500">{{ .address | safeHTML }}</td>
                         <td class="py-4 px-6 text-sm font-medium text-gray-900 items-baseline">
                             <span class="flex space-x-4">
                             {{ range $platform, $link := .tickets }}
-                            <a href="{{ $link }}" target="_blank" rel="noopener noreferer">
+                            <a href="{{ $link }}" alt="{{ $platform }}" target="_blank" rel="noopener noreferer" style="min-width: fit-content;">
                                 <img src="{{ (resources.Get (printf "tickets/%s.png" $platform)).RelPermalink }}" class="h-8 w-auto">
                             </a>
                             {{ end }}
