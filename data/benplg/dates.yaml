@@ -22,6 +22,10 @@
   address: L' Ubu, Rennes
   tickets:
     seetickets: https://www.seetickets.com/fr/d/event/ben-plg-angie/l-ubu/9457421
+- date: "2023-03-30"
+  address: Espace Athena, Saint Saulve
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3308604
 - date: "2023-04-07"
   address: Le Trabendo, Paris
   tickets:
