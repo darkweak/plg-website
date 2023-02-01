@@ -3,6 +3,7 @@
   tickets:
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3305555
     seetickets: https://www.seetickets.com/fr/d/event/ben-plg-angie/bonjour-minuit/9379075
+    ticketmaster: https://www.ticketmaster.fr/fr/salle/bonjour-minuit-st-brieuc/idsite/11821
 - date: "2023-03-04"
   address: Salle Le Bournot, Aubenas
   tickets:
@@ -16,8 +17,10 @@
   tickets:
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3311868
     seetickets: https://www.seetickets.com/fr/tr/event/ben-plg/le-ferrailleur/9434249
+    ticketmaster: https://www.ticketmaster.fr/fr/salle/le-ferrailleur/idsite/9572
 - date: "2023-04-07"
   address: Le Trabendo, Paris
   tickets:
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3228800
     seetickets: https://www.seetickets.com/fr/tr/event/ben-plg/le-trabendo/9141955
+    ticketmaster: https://www.ticketmaster.fr/fr/salle/le-trabendo-parc-de-la-villette-paris/idsite/1485
