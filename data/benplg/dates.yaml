@@ -21,6 +21,10 @@
   tickets:
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3305555
     seetickets: https://www.seetickets.com/fr/d/event/ben-plg-angie/l-ubu/9457421
+- date: "2023-03-24"
+  address: La Cave, Argenteuil
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3332384
 - date: "2023-03-30"
   address: Espace Athena, Saint Saulve
   tickets:
