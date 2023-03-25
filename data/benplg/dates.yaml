@@ -1,8 +1,21 @@
+- date: "2023-03-30"
+  address: Espace Athena, Saint Saulve
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3308604
 - date: "2023-04-07"
   address: Le Trabendo, Paris
   tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3228800
     seetickets: https://www.seetickets.com/fr/tr/event/ben-plg/le-trabendo/9141955
+- date: "2023-04-21"
+  address: L'affranchi, Marseille
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3228800
 - date: "2023-04-28"
   address: L'affranchi, Marseille
   tickets:
     seetickets: https://www.seetickets.com/fr/d/event/ben-plg/l-affranchi/9459729
+- date: "2023-04-29"
+  address: Le 109 - Les Abattoirs, Nice
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3353348
