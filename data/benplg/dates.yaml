@@ -2,6 +2,10 @@
   address: Espace Athena, Saint Saulve
   tickets:
     fnac: https://www.fnacspectacles.com/artist/ben-plg/3308604
+- date: "2023-04-01"
+  address: Le Camji, Niort
+  tickets:
+    fnac: https://www.fnacspectacles.com/artist/ben-plg/3363164
 - date: "2023-04-07"
   address: Le Trabendo, Paris
   tickets:
